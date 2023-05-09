@@ -6,7 +6,7 @@
     "email": "jshinonome@gmail.com"
   },
   "description": "qCumber(quke) file syntax highlight support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "jshinonome",
   "engines": {
     "vscode": "^1.78.0"
