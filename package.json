@@ -1,0 +1,35 @@
+{
+  "name": "vscode-qcumber",
+  "displayName": "qCumber",
+  "description": "qCumber(quke) file syntax highlight support",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "languages": [
+      {
+        "id": "quke",
+        "extensions": [
+          ".quke"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icon.png",
+          "dark": "./icon.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "quke",
+        "scopeName": "source.quke",
+        "path": "./syntaxes/quke.tmLanguage.json"
+      }
+    ]
+  }
+}
