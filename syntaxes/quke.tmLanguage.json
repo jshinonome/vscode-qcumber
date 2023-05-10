@@ -26,15 +26,15 @@
       "patterns": [
         {
           "name": "markup.bold.quke",
-          "match": "feature\\s.*"
+          "match": "^feature.*$"
         },
         {
           "name": "markup.quote.raw.quke",
-          "match": "\\s+should\\s.*"
+          "match": "^\\s+(should|before|after).*$"
         },
         {
           "name": "markup.inline.raw.quke",
-          "match": "\\s+expect\\s.*"
+          "match": "^\\s+expect.*$"
         },
         {
           "name": "comment.block.quke",
