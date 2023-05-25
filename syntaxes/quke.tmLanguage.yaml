@@ -12,11 +12,11 @@ repository:
   comments:
     patterns:
       - name: markup.bold.quke
-        match: ^feature.*$
+        match: ^feature\s.*$
       - name: markup.quote.raw.quke
-        match: ^\s+(should|before|after).*$
+        match: ^\s+(should|before|after)\s.*$
       - name: markup.inline.raw.quke
-        match: ^\s+expect.*$
+        match: ^\s+expect\s.*$
       - name: comment.block.quke
         begin: ^/\s*$
         end: ^\\\s*$
